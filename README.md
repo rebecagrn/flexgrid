@@ -27,7 +27,7 @@
 # Clone or download this repository
 $ Download this repository
 # or
-$ git clone https://github.com/rebecagrn/css-flexgrid.git
+$ git clone https://github.com/rebecagrn/flexgrid.git
 
 # Link the flexgrid.min.css file
 $ <link rel="stylesheet" href="flexgrid.min.css">
@@ -56,7 +56,7 @@ $ <link rel="stylesheet" href="flexgrid.min.css">
 
 ## Contributing
 
-Your contributions are always welcome! [Click Here to read the guidelines.](https://github.com/rebecagrn/css-flexgrid/blob/master/CONTRIBUTING.md)
+Your contributions are always welcome! [Click Here to read the guidelines.](https://github.com/rebecagrn/flexgrid/blob/master/CONTRIBUTING.md)
 
 ## License
 
