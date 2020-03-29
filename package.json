@@ -1,0 +1,48 @@
+{
+  "name": "flexgrid",
+  "version": "1.0.0",
+  "description": "A simple and flexible grid system created with flexbox using scss",
+  "scripts": {
+    "scss": "node-sass scss/flexgrid.scss ./flexgrid.css --output-style expanded",
+    "minify": "node-sass scss/flexgrid.scss ./flexgrid.min.css --output-style compressed",
+    "prefix": "postcss --replace \"flexgrid.css\" \"flexgrid.min.css\"",
+    "build": "npm run scss & npm run minify & npm run prefix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebecagrn/flexgrid.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "grid-system",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "web"
+  ],
+  "author": "VRebeca Paccheco <rbkgarner@gmail.com> (https://rebecag.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rebecagrn/flexgrid.git/issues"
+  },
+  "homepage": "https://github.com/rebecagrn/flexgrid#readme",
+  "browserslist": [
+    "last 1 major version",
+    ">= 1%",
+    "Chrome >= 45",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Safari >= 9",
+    "Android >= 4.4",
+    "Opera >= 30"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "node-sass": "^4.12.0",
+    "postcss-cli": "^6.1.2"
+  }
+}

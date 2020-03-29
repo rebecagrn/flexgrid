@@ -1,0 +1,30 @@
+/*
+*   FlexGrid  v1.0.0
+*
+*   A simple and flexible grid system created with flexbox using scss.
+*
+*   Create by: Rebeca Pacheco (https://rebecag.com)
+*
+*   Repository (https://github.com/rebecagrn/flexgrid)
+*/
+
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@import "utils/variables";
+@import "utils/functions";
+
+@import "mixins/breakpoints";
+@import "mixins/grid";
+@import "mixins/grid-framework";
