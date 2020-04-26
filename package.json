@@ -22,7 +22,7 @@
     "front-end",
     "web"
   ],
-  "author": "VRebeca Paccheco <rbkgarner@gmail.com> (https://rebecag.com/)",
+  "author": "Rebeca Pacheco <rbkgarner@gmail.com> (https://rebecag.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rebecagrn/flexgrid.git/issues"
@@ -41,8 +41,8 @@
     "Opera >= 30"
   ],
   "devDependencies": {
-    "autoprefixer": "^9.5.1",
-    "node-sass": "^4.12.0",
-    "postcss-cli": "^6.1.2"
+    "autoprefixer": "^9.7.6",
+    "node-sass": "^4.14.0",
+    "postcss-cli": "^6.1.3"
   }
 }
